@@ -1,7 +1,6 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
 using System.IO;
 using System.Collections.Generic;
-using System;
 using System.Net;
 using System.Net.Sockets;
 
@@ -74,7 +73,7 @@ namespace ServicesChecker
                 }
                 Console.WriteLine($"Make Example File in {exampleFilePath}");
             }
-            
+
             Console.WriteLine();
             Console.WriteLine($"Press Any Key End Application");
             Console.ReadKey();
